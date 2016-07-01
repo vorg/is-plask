@@ -1,9 +1,3 @@
-var plask = null;
-try {
-    plask = require('plask');
-}
-catch(e) {
+var plask = require('plask-wrap')
 
-}
-
-module.exports = (plask && plask.SkCanvas) ? true : false;
+module.exports = plask.SkCanvas ? true : false
