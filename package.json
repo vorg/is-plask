@@ -10,7 +10,7 @@
     "url": "https://github.com/vorg"
   },
   "dependencies": {
-    "plask-wrap": "^1.0.0"
+    "plask-wrap": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
